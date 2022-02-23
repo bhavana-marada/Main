@@ -20,7 +20,7 @@
 @tag
 Feature: Adding Employee
 Scenario: Add Employee record
-Given I Set POST user service api endpoint
+Given I Set POST user service api endpoint 
 When Send a POST HTTP request
 Then I receive valid Response
 
